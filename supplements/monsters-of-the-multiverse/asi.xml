@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Ability Score Increase (Monsters of the Multiverse)</name>
+        <description></description>
+        <author url="https://dnd.wizards.com/products/monsters-of-the-multiverse">Wizards of the Coast</author>
+        <update version="0.1.0">
+			<file name="asi.xml" url="https://raw.githubusercontent.com/aweizman/auroraContent/main/asi.xml" />
+		</update>
+    </info>
+
+    <element name="Ability Score Increase: two selections" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_ASI_2">
+        <supports>ASI</supports>
+        <description>When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy. The “Quick Build” section for your character’s class offers suggestions on which scores to increase. You can follow those suggestions or ignore them, but you can’t raise any of your scores above 20.</description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase (2 points)" supports="ASI_2" number="1" />
+            <select type="Racial Trait" name="Ability Score Increase (1 point)" supports="ASI_1" number="1" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase: three selections" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_ASI_3">
+        <supports>ASI</supports>
+        <description>When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy. The “Quick Build” section for your character’s class offers suggestions on which scores to increase. You can follow those suggestions or ignore them, but you can’t raise any of your scores above 20.</description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase (1 point)" supports="ASI_1" number="3" />
+        </rules>
+    </element>
+
+    <!-- Increase by 1. -->
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_1_STRENGTH">
+        <compendium display="false" />
+        <supports>ASI_1</supports>
+        <description>
+          <p>Your Strength score increases by 1.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="strength" value="1" alt="ASI_1" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_1_DEXTERITY">
+      <compendium display="false" />
+      <supports>ASI_1</supports>
+      <description>
+        <p>Your Dexterity score increases by 1.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="dexterity" value="1" alt="ASI_1" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_1_CONSTITUTION">
+      <compendium display="false" />
+      <supports>ASI_1</supports>
+      <description>
+        <p>Your Constitution score increases by 1.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="constitution" value="1" alt="ASI_1" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_1_INTELLIGENCE">
+      <compendium display="false" />
+      <supports>ASI_1</supports>
+      <description>
+        <p>Your Intelligence score increases by 1.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="intelligence" value="1" alt="ASI_1" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_1_WISDOM">
+      <compendium display="false" />
+      <supports>ASI_1</supports>
+      <description>
+        <p>Your Wisdom score increases by 1.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="wisdom" value="1" alt="ASI_1" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_1_STRENGTH_CHARISMA">
+      <compendium display="false" />
+      <supports>ASI_1</supports>
+      <description>
+        <p>Your Charisma score increases by 1.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="charisma" value="1" alt="ASI_1" />
+      </rules>
+    </element>
+    
+    
+    <!-- Increase by 2 -->
+    
+      <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_2_STRENGTH">
+      <compendium display="false" />
+      <supports>ASI_2</supports>
+      <description>
+        <p>Your Strength score increases by 2.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="strength" value="2" alt="ASI_2" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_2_DEXTERITY">
+      <compendium display="false" />
+      <supports>ASI_2/supports>
+      <description>
+        <p>Your Dexterity score increases by 2.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="dexterity" value="2" alt="ASI_1" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_2_CONSTITUTION">
+      <compendium display="false" />
+      <supports>ASI_2</supports>
+      <description>
+        <p>Your Constitution score increases by 2.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="constitution" value="2" alt="ASI_2" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_2_INTELLIGENCE">
+      <compendium display="false" />
+      <supports>ASI_2</supports>
+      <description>
+        <p>Your Intelligence score increases by 2.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="intelligence" value="2" alt="ASI_2" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_2_WISDOM">
+      <compendium display="false" />
+      <supports>ASI_2</supports>
+      <description>
+        <p>Your Wisdom score increases by 2.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="wisdom" value="2" alt="ASI_2" />
+      </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_ASI_2_STRENGTH_CHARISMA">
+      <compendium display="false" />
+      <supports>ASI_2</supports>
+      <description>
+        <p>Your Charisma score increases by 2.</p>
+      </description>
+      <sheet display="false" />
+      <rules>
+        <stat name="charisma" value="2" alt="ASI_2" />
+      </rules>
+    </element>
+</elements>
