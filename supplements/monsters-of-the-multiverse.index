@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Monsters of the Multiverse</name>
+		<update version="0.0.1">
+			<file name="monsters-of-the-multiverse.index" url="https://raw.githubusercontent.com/aweizman/elements/master/supplements/monsters-of-the-multiverse.index" />
+		</update>
+	</info>
+	<files>
+		<file name="asi.xml" url="https://raw.githubusercontent.com/aweizman/elements/master/monsters-of-the-multiverse/asi.xml" />
+		<file name="race-aarakocra.xml" url="https://raw.githubusercontent.com/aweizman/elements/master/monsters-of-the-multiverse/race-aarakocra.xml" />
+		<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/aweizman/elements/master/monsters-of-the-multiverse/race-aasimar.xml" />
+		<file name="race-bugbear.xml" url="https://raw.githubusercontent.com/aweizman/elements/master/monsters-of-the-multiverse/race-bugbear.xml" />
+	</files>
+</index>
